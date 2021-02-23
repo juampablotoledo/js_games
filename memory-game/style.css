@@ -1,0 +1,25 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	width: 600px;
+}
+img {
+	width: 98px;
+	height: 98px;
+	margin: 1px;
+}
+
+img:hover {
+	width: 92px;
+	height: 92px;
+	margin: 4px;
+	cursor: pointer;
+}
+img:active {
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	cursor: grabbing;
+
+}
